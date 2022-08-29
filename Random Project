@@ -1,0 +1,10 @@
+#define function skip_integers which accepts variable number of arguments
+def skip_integers(*k):
+    #iterate through each argument using for loop
+    for i in k:
+        #check if isinstance function returns True then continue to next argument
+        if isinstance(i, int):
+            continue
+        #else print that argument
+        else:
+            print(i)
