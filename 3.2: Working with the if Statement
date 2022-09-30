@@ -1,0 +1,10 @@
+print("Return TRUE or FALSE: Python 3 was released in 2008:")
+choice = input()
+
+if choice == "TRUE":
+    print("Correct")
+elif choice == "FALSE":
+    print("Incorrect")
+else:
+    print("Please answer TRUE or False")
+print("Have a great day!")
