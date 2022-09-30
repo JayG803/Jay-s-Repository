@@ -1,0 +1,7 @@
+numbers = [34, 9, 32, 91, 58, 13, 77, 21, 56]
+print(numbers)
+n = int(input("How many elements to fetch: "))
+for i in range(n):
+    print(numbers[i], end=' ')
+print()
+print(numbers[:n])
